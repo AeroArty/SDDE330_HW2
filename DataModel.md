@@ -1,6 +1,7 @@
 ## Data Model Definition:
-Data model selection: Relational
-Justification: The listing of blog posts is relatively structured. There will be a listing of blog entries that can be identified using unique IDs and each blog entry must have a title, content, author/user information, creation time, update time, etc. Information about the author and the BlogEntry can be stored in different tables since each blog entry may have different authors. 
+- Data model selection: Relational
+
+- Justification: The listing of blog posts is relatively structured. There will be a listing of blog entries that can be identified using unique IDs and each blog entry must have a title, content, author/user information, creation time, update time, etc. Information about the author and the BlogEntry can be stored in different tables since each blog entry may have different authors. 
 **Tables/Collections:**
 
 ## Author Table
